@@ -1,1 +1,1 @@
-build前执行 pod install
+build 前执行 pod install
