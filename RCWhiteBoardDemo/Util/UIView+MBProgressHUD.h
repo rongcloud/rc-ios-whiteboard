@@ -1,0 +1,21 @@
+//
+//  UIView+MBProgressHUD.h
+//  RCWhiteBoardDemo
+//
+//  Created by 孙浩 on 2021/7/27.
+//  Copyright © 2021 RongCloud. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface UIView (MBProgressHUD)
+
+- (void)showMessage:(NSString *)message;
+
+- (void)showMessage:(NSString *)message showTime:(int)showTime;
+
+@end
+
+NS_ASSUME_NONNULL_END

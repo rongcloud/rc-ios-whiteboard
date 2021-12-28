@@ -1,0 +1,6 @@
+framework module RCWhiteBoardLib {
+  umbrella header "RCWhiteBoardLib.h"
+
+  export *
+  module * { export * }
+}
